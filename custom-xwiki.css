@@ -6,13 +6,35 @@
     .PanelsNavigation{
         display:none;
     }
+    .jstree ul.jstree-children{margin-left:-13px;}
     .jstree-anchor{
         font-weight: normal!important;
+        /*margin-left:-5px!important;*/
+        padding: 0 0 0 0!important;
+        line-height: 43px!important;
     }
-    .jstree-xwiki-responsive .jstree-node {
-        
-        background-image: none!important;
-        
+    .jstree-xwiki-responsive .jstree-node, .jstree-xwiki-responsive .jstree-icon, .jstree-xwiki-responsive .jstree-node>.jstree-ocl, .jstree-xwiki-responsive .jstree-themeicon, .jstree-xwiki-responsive .jstree-checkbox{
+        background-image:none;
+    }
+    .jstree-closed::before{
+        content:"\f105"!important;
+        font-family: 'FontAwesome'!important;
+        font-size: 30px;
+        font-weight:bold;
+        padding-left:12px;
+        margin-right: -15px;
+    }
+    .jstree-open::before{
+        content:"\f10"!important;
+        font-family: 'FontAwesome'!important;
+        font-size: 30px;
+        font-weight:bold;
+        padding-left:12px;
+        margin-right: -15px;
+    }
+    .jstree-xwiki-responsive .jstree-icon:empty{
+        margin: 0 auto auto -8px;
+        line-height: 43px!important;
     }
     #document-title h1{
         font-size:23px;
