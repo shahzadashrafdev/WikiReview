@@ -9,10 +9,10 @@
     .jstree ul.jstree-children{margin-left:-13px;}
     .jstree-anchor{
         font-weight: normal!important;
-        /*margin-left:-5px!important;*/
         padding: 0 0 0 0!important;
         line-height: 43px!important;
     }
+
     .jstree-xwiki-responsive .jstree-node, .jstree-xwiki-responsive .jstree-icon, .jstree-xwiki-responsive .jstree-node>.jstree-ocl, .jstree-xwiki-responsive .jstree-themeicon, .jstree-xwiki-responsive .jstree-checkbox{
         background-image:none;
     }
